@@ -37,3 +37,8 @@ footer{margin-top:10px;background-color:white;padding:10px}
 .basket input[type="button"]{float:right;}
 .basket span{ margin-left:100px;}
 .basket img{width:200px;}
+
+.basket span[id="checkbox"]{margin-left: 0px;}
+.basket span[id="name"]{align:center;border: 1px solid red;margin-left: 200px;}
+.basket span[id="price"]{margin-left: 200px;}
+.basket input[type="submit"]{margin-left: 480px;margin-top: 30px;}

@@ -45,6 +45,10 @@
             <forward name="success" path="/Logout.jsp"/>
               <forward name="fail" path="/Main.jsp"/>
         </action>
+        <action input="/" name="ShoeFormBean" path="/DeleteAction" scope="session" type="org.os.Login.DeleteAction">
+             <forward name="success" path="/basket.jsp"/>
+              <forward name="fail" path="/Main.jsp"/>
+        </action>
             <action path="/Welcome" forward="/welcomeStruts.jsp"/>
     </action-mappings>
     
